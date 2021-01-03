@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>quiz</title>
+	<link rel="stylesheet" href="css/quiz.css">
+</head>
+<body>
+       
+
+     <h1> CHOOSE ANIMALS YOU ARE SHOWN </h1>
+     
+	<div class="quiz_wrapper">
+           
+           <div class="question" id="questionBox">
+           	
+           </div>
+           
+           <div class="options">
+           	  <ul id="ul">
+           	  	  <li id="op1" onclick="button(this)"></li>
+           	  	 
+           	  </ul>
+           </div>
+           <div class="score">
+           	   <div class="next">
+           	   	  <button type="button" onclick="next()" id="button">Next</button>
+           	   </div>
+           	   <div class="score-card">
+           	   	  Score : <span id="scoreCard">0</span>
+           	   </div>
+           </div>
+
+	</div>
+	<div> 
+
+
+    
+
+
+	<h3 style="color:white">Your score is :<button type="button" onclick="myscore()" id="jk">check</button></h3>
+
+      
+	  <form action="../junction">
+       <button onclick="gfg_run()">SUBMIT</button>
+	  </form>
+     
+
+	</div>
+<script src="js/script.js"></script>
+</body>
+</html>

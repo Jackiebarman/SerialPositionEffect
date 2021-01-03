@@ -1,0 +1,19 @@
+#image{
+    background-image: url(../../assets/tunnel.gif);
+    background-size:1800px;
+    background-position:center;
+    width:100%;
+    height:750px;
+}
+#let{
+    width:250px;height:78px;color:blue;background-color:white;font-family:tahoma;border-radius: 50%;
+    position:absolute;left:60%;top:20%;transform:translate(-50%,-50%);
+}
+#let1{
+    width:250px;height:78px;color:blue;background-color:white;font-family:tahoma;border-radius: 50%;
+    position:absolute;left:75%;top:20%;transform:translate(-50%,-50%);
+}
+#let2{
+    width:250px;height:78px;color:blue;background-color:white;font-family:tahoma;border-radius: 50%;
+    position:absolute;left:90%;top:20%;transform:translate(-50%,-50%);
+}
